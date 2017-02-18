@@ -1,0 +1,156 @@
+
+/* ENTIRE CONTAINER */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+/* TOP BAR */
+
+.tb-container {
+    border: 1px solid darkgrey;
+    width: 100%;
+    height: 4rem;
+}
+
+
+/* CYCLES LEFT SIDEBAR STYLING */
+
+.cls-container {
+    width: 20%;
+    border-right: 1px solid darkgrey;
+}
+
+
+
+/* CYCLES MAIN STYLING */
+
+.cm-container {
+    margin: auto 10% auto 20%;
+
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    box-shadow: -2px -1px 2px 0px darkgrey;    
+    border: 1px solid darkgrey;
+}
+
+@media screen and (max-width: 768px) {
+    .cm-container {
+        margin: 0 auto;
+        margin-top: 3.5rem;
+    }
+}
+
+
+
+/* add new cycle */
+
+    .cm-add-new-cycle {
+        height: 150px;
+        border-bottom: 1px solid darkgrey;
+    }
+
+@media screen and (max-width: 768px) {
+    .cm-add-new-cycle {
+        margin: auto 2% auto 2%;
+        height: 200px;
+    }
+}
+
+    .cm-add-new-cycle-title {
+        outline: none;
+        border: 0;
+        font-size: 2rem;
+        position: relative;
+        left: 4rem;
+        top: 3.5rem;
+    }
+
+@media screen and (max-width: 768px) {
+    .cm-add-new-cycle-title {
+        position: relative;
+        left: 2rem;
+        top: 5rem;
+        font-size: 1.5rem;
+
+    }
+}
+    .cm-remove-cycle {
+        float: right;
+        padding: 1rem;
+    }
+
+/* CYCLES INDIVIDUAL STYLING */
+
+
+    .ci-container {
+        border-bottom: 1px solid darkgrey;
+        float: left;
+        width: 100%;
+        height: 300px;
+    }
+
+@media screen and (max-width: 768px) {
+    .ci-container {
+        height: 200px;
+    }
+}
+
+
+
+/* cycle-title  */
+
+    .ci-cycle-title {
+        position: relative;
+        left: 5rem;
+        top: 6rem;
+        font-size: 2.5rem;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .ci-cycle-title {
+        position: relative;
+        left: 2rem;
+        top: 5rem;
+        font-size: 1.5rem;
+
+    }
+}
+
+
+    .ci-cycle-title-input {
+        outline: none;
+        border: 0;
+    }   
+
+
+
+/* cycle-tags */
+
+.ci-cycle-tags {
+    position: relative;
+    left: 5rem;
+    top: 9rem;
+    
+}
+
+.
+
+
+/* OTHER CONSIDERATIONS */
+
+.clear {
+    clear: both;
+}
+
+
+
+/*  React Tags  */
+
+
+/* Create different styling depending on whether it's focus or not */

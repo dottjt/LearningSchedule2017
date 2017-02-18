@@ -1,0 +1,37 @@
+
+/*  Cycles left sidebar */
+
+.cycles-left-sidebar-title {
+    padding: 1rem;
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center; 
+}
+
+/* Cycles main */ 
+
+.cycles {
+    height: 6rem;
+    width: 100%;
+    border: 1px solid black;
+    background: deepskyblue;
+}   
+
+.cycles-main-cycle_title {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.cycles-cycle-title {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.cycles-left-sidebar-list {
+    text-align: center;
+}
+
+.cycles-getting-started {
+    font-size: 1.2rem;
+    text-align: center;
+}

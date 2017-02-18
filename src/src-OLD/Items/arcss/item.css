@@ -1,0 +1,45 @@
+.add-item-form {
+    width: 800px;
+}
+
+.item-individual {
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+
+/* Item Fields */
+
+.add-item-field {
+    margin-right: 1rem;
+    width: 6rem;
+    height: 2rem;
+}
+
+.inline-item-field {
+    display: inline-block;
+}
+
+.item_id_hidden {
+    visibility: hidden;
+}
+
+.add-new-item {
+
+}
+
+.item-left-sidebar {
+    width: 100%;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+
+.app-main-new-item-bar {
+    width: 100%;
+    height: 3rem;
+}
+
+.item-delete-button {
+    width: 40px;
+    height: 40px;
+}

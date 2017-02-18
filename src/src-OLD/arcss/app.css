@@ -1,0 +1,53 @@
+.app-container {
+    overflow: auto;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.app-left-sidebar {
+  border-right: 1px solid black;
+  float: left;
+  height: 700px;
+  width: 250px;
+  border: 1px solid red;
+}
+
+.app-top-bar {
+  border: 1px solid green;
+  height: 100px;
+  min-width: 945px;
+  float: left;
+}
+
+
+.app-main-container {
+  border: 1px solid blue;
+  width: 945px;
+  height: 600px;
+  float: left;
+}
+
+.app-main {
+  border: 1px solid purple;
+  width: 650px;
+  height: 600px;
+  float: left;
+}
+
+.app-right-sidebar {
+  border: 1px solid yellow; 
+  width: 290px;
+  height: 600px;
+  float: left;
+}
+
+.cycles-main {
+  border: 1px solid blue;
+  float: left;
+  width: 940px;
+}
+
+.bye-bullet {
+  list-style-type: none;
+}
+

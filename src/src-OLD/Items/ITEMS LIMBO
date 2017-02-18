@@ -1,0 +1,25 @@
+
+
+ return (
+        <ul className="bye-bullet">
+            <li>
+            <button type="button" onClick={() => fields.push({})}>Add Comment</button>
+            </li>
+            {fields.map((timespent, index) =>
+            <li key={index}>
+            
+            <Field
+                name={`${timespent}.item_time_spent`}
+                type="text"
+                component="input"
+                label="item_time_spent"/>
+            <Field
+                name={`${timespent}.item_time_spent_date`}
+                type="text"
+                component="input"
+                label="item_time_spent_date"/>
+            </li>
+            )}
+        </ul>
+
+    )
