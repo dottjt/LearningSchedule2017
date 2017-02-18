@@ -1,0 +1,2 @@
+# LearningSchedule2017
+A fresh start on LearningSchedule. Reactjs + Redux was frustrating the hell out of me, so I decided to learn some more FRP and functional languages to assist me. And yes, it's basically confirmed how awful javascript is for the FRP paradigm, however it has community support and a bunch of useful libraries, so it's what I've decided to use. Contains a lot of old code, but it's going very well :)
